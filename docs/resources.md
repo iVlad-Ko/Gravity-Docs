@@ -24,7 +24,7 @@ The Gravity Bridge Blockchain contract address is.
 
 [0xa4108aA1Ec4967F8b52220a4f7e94A8201F2D906](https://etherscan.io/address/0xa4108aA1Ec4967F8b52220a4f7e94A8201F2D906)
 
-The Gravity Bridge contract ABI is available as `Gravity.json` attached to every [release](https://github.com/Gravity-Bridge/Gravity-Bridge/releases/download/v1.5.0/Gravity.json)
+The Gravity Bridge contract ABI is available as `Gravity.json` attached to every [release](https://github.com/Gravity-Bridge/Gravity-Bridge/releases/download/v1.5.2/Gravity.json)
 
 ## RPC
 
@@ -38,6 +38,8 @@ https://gravitychain.io
 
 The Gravity Bridge testnet is simply a copy of the [local developer environment](https://github.com/Gravity-Bridge/Gravity-Bridge/blob/main/docs/developer/environment-setup.md) exposed to the outside world.
 
+This environment is made up of two chains, one Gravity chain and another IBC test chain.
+
 Testnet RPC
 
 ```text
@@ -46,26 +48,37 @@ http://testnet.gravitychain.io:9090  # gRPC
 http://testnet.gravitychain.io:9091  # gRPC-web
 http://testnet.gravitychain.io:26657 # ABCI
 
+
+http://testnet.gravitychain.io:27657 # ABCI IBC network
+http://testnet.gravitychain.io:9190  # GRPC IBC network
+
 http://testnet.gravitychain.io:8545  # Ethereum
 ```
 
 Keys containing test tokens
 
-This is the private key for the validators on the testnet
+These is the private keys for the validators on the testnet
 
 ```text
+safe useless favorite lemon wool mandate ladder army tuna quit aware drift unfair chicken absorb evidence balcony strike wolf stay kid amused head august
 
-approve skirt mask rate marine net guide fortune virtual detail aisle eager wheat marriage aerobic still nut hole whip corn evolve grant walnut shine
+garden trip dawn gas mosquito attack negative vote finger upon ice buffalo guitar layer canoe high bubble tank admit curve raw shiver cook antique
 
+pause eye idea blanket wage language believe distance party admit version twenty congress false machine express actress hen wing solar wrap scan hover beef
 
-engine tennis talent demand picture erupt ask struggle carry raven tree wine pass door leaf fade thunder future electric female behind body have annual
+deputy tiny pupil live wash recycle erosion text physical hawk damp message curve blush theme eye warm message hurt yard embark evil tower stove
+```
 
+And the private keys for the validators on the second non-gravity IBC test network
 
-current unhappy exotic renew easy harbor diesel vibrant also recall leg hamster rally pulp spatial depth never match grab broom recycle unfair gallery story
+```text
+guilt harsh risk code guard boat snake omit borrow legal delay view tonight shoot opinion remember slide trust beyond steak card atom again bamboo
 
-hospital food genre honey energy lens south indicate great tiger program carbon link elite auto mask barrel field plug person sunset brother pond glad
+section fatal position attack nurse clip above across suggest style benefit hawk surprise scan pulse shove blame cherry light sweet tumble select shop oppose
 
+off abuse alarm hint fat aerobic youth apple spring trap soccer sunset powder unable anger learn immune valve salmon disease festival sting symptom hawk
 
+artist moon mutual luxury truly portion follow maid enter umbrella upgrade circle hole concert blouse humble insect sketch dinner atom fatal genius conduct drink
 ```
 
 This is the private key for the Ethereum miner, it has access to ETH and several ERC20's pre-deployed
@@ -82,6 +95,7 @@ Gravity ERC721 0xD50c0953a99325d01cca655E57070F1be4983b6b
 ```
 
 ERC20 tokens to test with, the miner private key has access
+Also note that this testnet instance is using Hardhat, and thus has actual historical Ethereum state to interact with. It is possible to acquire some ETH from the Ethereum miner (see private key above) and swap for many ERC20s on Uniswap.
 
 ```text
 0x0412C7c846bb6b7DC462CF6B453f76D8440b2609
