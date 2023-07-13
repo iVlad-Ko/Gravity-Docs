@@ -24,7 +24,7 @@ The Gravity Bridge Blockchain contract address is.
 
 [0xa4108aA1Ec4967F8b52220a4f7e94A8201F2D906](https://etherscan.io/address/0xa4108aA1Ec4967F8b52220a4f7e94A8201F2D906)
 
-The Gravity Bridge contract ABI is available as `Gravity.json` attached to every [release](https://github.com/Gravity-Bridge/Gravity-Bridge/releases/download/v1.5.2/Gravity.json)
+The Gravity Bridge contract ABI is available as `Gravity.json` attached to every [release](https://github.com/Gravity-Bridge/Gravity-Bridge/releases/download/v1.8.1/Gravity.json)
 
 ## RPC
 
@@ -60,25 +60,27 @@ Keys containing test tokens
 These is the private keys for the validators on the testnet
 
 ```text
-safe useless favorite lemon wool mandate ladder army tuna quit aware drift unfair chicken absorb evidence balcony strike wolf stay kid amused head august
+cute steel mass hockey fatigue lottery few wood inch potato puppy brand donor person fortune warm century crane toward report embody hire wine senior
 
-garden trip dawn gas mosquito attack negative vote finger upon ice buffalo guitar layer canoe high bubble tank admit curve raw shiver cook antique
+spring again lunar miss execute catalog moral loyal bargain proof shiver distance lady tiny kidney voice shock month purchase casual you service effort wolf
 
-pause eye idea blanket wage language believe distance party admit version twenty congress false machine express actress hen wing solar wrap scan hover beef
+emerge exact mandate town frog surge shine bounce word give turkey illness advance shift entry cushion damp canoe tumble salt floor fever swing switch
 
-deputy tiny pupil live wash recycle erosion text physical hawk damp message curve blush theme eye warm message hurt yard embark evil tower stove
+deer lunch cereal easy match orient anger public learn rival pull admit live minimum diagram siege north lottery noble fame ripple riot armed indicate
+
 ```
 
 And the private keys for the validators on the second non-gravity IBC test network
 
 ```text
-guilt harsh risk code guard boat snake omit borrow legal delay view tonight shoot opinion remember slide trust beyond steak card atom again bamboo
+fluid scrub lion alien afraid surface turtle caught dignity cheese refuse mind sword tide notable beyond weapon collect general wine horror off left trouble
 
-section fatal position attack nurse clip above across suggest style benefit hawk surprise scan pulse shove blame cherry light sweet tumble select shop oppose
+fix various crop drill equal exchange know bunker pelican local surround food fog one base rescue great decorate require reopen patient stamp hawk timber
 
-off abuse alarm hint fat aerobic youth apple spring trap soccer sunset powder unable anger learn immune valve salmon disease festival sting symptom hawk
+divide alter miss knee bundle oven vast second hybrid curious acoustic mother fault agent decrease photo oppose involve toast differ argue report degree educate
 
-artist moon mutual luxury truly portion follow maid enter umbrella upgrade circle hole concert blouse humble insect sketch dinner atom fatal genius conduct drink
+name narrow bleak paper only typical mind magnet liquid pioneer swallow nerve fuel velvet mind barrel race open unveil wagon gap fiction caution audit
+
 ```
 
 This is the private key for the Ethereum miner, it has access to ETH and several ERC20's pre-deployed
